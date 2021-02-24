@@ -1,0 +1,133 @@
+/* personal styles */
+body{
+	background-color: #d295e2;
+	margin-right: 4em;
+	margin-left: 1em;
+}
+h1{
+	font-family: 'Gloria Hallelujah';
+	background-color: rgba(210, 149, 226, .7);
+	padding-bottom: .25em;
+	
+}
+#top_banner{
+	font-size: 2em;
+	margin-right: 2em;
+}
+h2{
+	margin-top: .35em;
+	padding-left: 5.7em;
+	font-family: 'Josefin Sans';
+}
+h3{
+	float: right;
+	color: blue;
+	font-style: italic;
+}
+hr{
+	margin: 30px 0px 40px 30px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgba(241, 212, 247, .7);
+}
+.jumbotron{
+	text-align: center;
+	margin-top: 0.5em;
+	margin-right: -4em;
+	margin-left: -1em;
+	background-color: #8b2ea0;
+	color: white;
+	background-image: url("images/jumbotron_background.png");
+}
+.bg-light{
+	background-color: #f1d4f7 !important;
+}
+.navbar-nav{
+	font-size: 1.25em !important;
+}
+.navbar{
+	margin-right: -4em;
+	margin-left: -1em;
+}
+.navbar-nav > li{
+	padding-left: .5em;
+	padding-right: .5em;
+}
+img{
+	margin: 1em 1em 1em 0em;
+	border-radius: 20px;
+}
+#hk_main{
+	border-radius: 10px;
+}
+p{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+#intro_paragraph{
+	float: left;
+	margin-top: 1em;
+	margin-right: -2em;
+	margin-left: 1em;
+	font-size: 1.25em;
+	background-color: rgba(241, 212, 247, .5);
+	padding: 3em 3em 2em 3em;
+}
+label{
+	display: inline;
+	margin-top: 1em;
+	margin-left: .5em;
+	margin-bottom: 1em;
+	text-align: center;
+	font-family: 'Josefin Sans';
+	font-size: 1.5em;
+	font-style: italic;
+	color: blue;
+	background-color: rgba(241, 212, 247, .5);
+	padding: .3em;
+}
+label:hover{
+	background-color: #8b2ea0;
+	color: #f1d4f7;
+}
+#causes{
+	display: block;
+	background-color: rgba(241, 212, 247, .5);
+	margin-left: 1em;
+	margin-top: 2em;
+	margin-bottom: 2.5em;
+	padding: 1em 2em 1em 2em;
+	font-size: 1.25em;
+}
+#ageGap{
+	border-radius: 0px;
+	display: block;
+	margin: 1em auto;
+}
+.carousel-inner{
+	margin-top: 1.5em;
+	border-top: 15px double purple;
+	border-bottom: 15px double purple;
+	margin: 2em;
+}
+.treatments{
+	border-radius: 0px;
+}
+.boxTextLeft{
+	border-left: 8px solid #f1d4f7;
+}
+.boxTextUp{
+	border-top: 8px solid #f1d4f7;
+}
+.boxTextRight{
+	margin-right: 1em;
+	border-right: 8px solid #f1d4f7;
+}
+footer{
+	margin-right: -4em;
+	margin-left: -1em;
+	width: 200%;
+	padding: 3em 0em;
+	text-align: center;
+	color: white;
+	background-color: #8b2ea0;
+}

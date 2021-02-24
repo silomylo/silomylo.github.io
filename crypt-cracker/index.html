@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypt Cracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+<h1>Crypt Cracker</h1>
+<div id ="cryptsolver">
+<!-- output-->
+<div class= "rooms">
+ <div class= "inputField">
+  <div class="labels" style="padding-top: 1em;">1</div>
+  <input id="room1" onclick="setFocus(0)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+ </div>
+ <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">2</div>
+	<input id="room2" onclick="setFocus(1)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">3</div>
+	<input id="room3" onclick="setFocus(2)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">4</div>
+	<input id="room4" onclick="setFocus(3)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">5</div>
+	<input id="room5" onclick="setFocus(4)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">6</div>
+	<input id="room6" onclick="setFocus(5)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">7</div>
+	<input id="room7" onclick="setFocus(6)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">8</div>
+	<input id="room8" onclick="setFocus(7)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">9</div>
+	<input id="room9" onclick="setFocus(8)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">10</div>
+	<input id="room10" onclick="setFocus(9)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">11</div>
+	<input id="room11" onclick="setFocus(10)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">12</div>
+	<input id="room12" onclick="setFocus(11)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">13</div>
+	<input id="room13" onclick="setFocus(12)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+   <div class= "inputField">
+	<div class="labels" style="padding-top: 1em;">14</div>
+	<input id="room14" onclick="setFocus(13)" style="width: 2em; height: 2em; text-align: center;" type="text" value="">
+   </div>
+</div>
+  <!-- 3rd input -->
+  <div class="inputPanel" style="padding-bottom: 1em;">
+	<button id="one" onclick="numOne()" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" value="1">1</button>
+	<button id="two" onclick="numTwo()" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" value="2">2</button>
+	<button id="three" onclick="numThree()" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" value="3">3</button>
+	<button id="reset" onclick="resetRooms()" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)">Reset</button>
+  </div>
+</div>
+</body>
+</html>

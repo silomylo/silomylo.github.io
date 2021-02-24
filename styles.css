@@ -1,0 +1,89 @@
+.largeText{
+	font-family: 'Carme', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+p{
+	font-size: 1.1rem;
+}
+body{
+	background-color: #3e414a;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+/* about */
+.sec1{
+	background-color: #3e414a;
+	font-family: 'Assistant', sans-serif;
+	color: white;
+	height: 700px;
+}
+.dot{
+	height: 30rem;
+	width: 30rem;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin: 0 auto;
+	position: relative;
+	top: 15%;
+}
+.container{
+	position: relative;
+	top: 28%;
+}
+.title{
+	display: flex;
+	justify-content: center;
+}
+#navbar{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+	border-top: 1px dashed white;
+	border-bottom: 1px dashed white;
+}
+#about span:before{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.2rem;
+	opacity: 1;
+	content: ">>";
+	transition: 1s;
+}
+#about{
+	margin-top: 5rem;
+	padding: 0.2rem;
+	background-color: lightgray;
+	color: #3e414a;
+	border-radius: 0.2rem;
+	height: 30px;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+}
+#about span:after{
+	opacity: 0;
+	content: "more projects coming soon!";
+	transition: 1s;
+}
+#about:hover{
+	padding: 0.5rem 1rem;
+	padding-bottom: 3rem;
+	transition: 0.5s;
+}
+#about:hover span:after{
+	font-size: 0.95rem;
+	opacity: 1;
+	transition: 0.5s;
+}
+#about:hover span:before{
+	content: "v";
+	opacity: 1;
+	transition: 0.5s;
+}

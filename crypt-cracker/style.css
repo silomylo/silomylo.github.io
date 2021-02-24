@@ -1,0 +1,50 @@
+* {
+  font-size: 15pt;
+  font-family: sans-serif;
+}
+body{
+  background-color:rgb(146, 124, 108);
+}
+h1{
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em;
+}
+input{
+  border: inset;
+}
+#cryptsolver{
+  width: 50%;
+  background-color: rgb(72, 83, 76);
+  min-width: 920px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: .25em;
+  margin: auto;
+}
+.inputField{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-column: 1/2;
+  align-items: center;
+}
+.rooms{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inputPanel{
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  padding: 3em;
+  margin: 2em;
+  background-color: rgb(231, 222, 142);
+}
+.labels{
+  color: rgb(134, 155, 152);
+  font-weight: bold;
+  font-style: italic;
+}
