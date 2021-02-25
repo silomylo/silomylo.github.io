@@ -26,11 +26,12 @@ function setFocus(num) {
 	currentRoom = num;
 	document.getElementById(rooms[num]).value = "";
 }
-function resetRooms() {
-	currentRoom = 0;
-	for(i=0; i<=13; i++){
-		document.getElementById(rooms[i]).value = "";
+function backspace() {
+	if(currentRoom > 0){
+		currentRoom--;
+		setFocus(currentRoom);
 	}
+	
 }
 function mouseDown(object) {
 	object.style.backgroundColor="rgb(116, 111, 75)";
